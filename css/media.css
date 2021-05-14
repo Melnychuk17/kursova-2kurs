@@ -1,0 +1,108 @@
+@media (max-width: 1600px) {
+    .footer__links {
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer__links a {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .header__text {
+        margin-top: 10vh;
+    }
+    .header__text .container {
+        padding: 30px 32.34375% 50px 32.34375%;
+        /* width: 75%; */
+    }
+    .header__text p {
+        font-size: 36px!important;
+    }
+    .footer__links,
+    .footer__contact {
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1280px) {
+    .about {
+        display: block;
+    }
+    .about__photo,
+    .about__text {
+        margin: 0 auto;
+    }
+    .about__header,
+    .about__paragraphs {
+        padding: 0;
+    }
+    .about__link {
+        padding: 0;
+        border: none;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .about__link::before {
+        border: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header__text .container {
+        padding: 30px 0 50px 0;
+        width: 75%;
+    }
+    .portfolio {
+        display: block;
+    }
+    .portfolio__link {
+        float: none;
+        border: none;
+    }
+    .portfolio__link::before {
+        border: none;
+    }
+    .portfolio__slider img {
+        margin: 0 auto;
+    }
+    .portfolio__slider .slick-arrow.slick-prev,
+    .portfolio__slider .slick-arrow.slick-next {
+        display: none;
+    }
+    .connection__social {
+        grid-template-columns: 1fr;
+    }
+    .working__text {
+        display: block;
+    }
+    .working__paragraph {
+        margin: 0 auto;
+        width: 100%;
+        margin: 0!important;
+        margin-bottom: 65px!important;
+    }
+    .working__paragraph:first-child::before,
+    .working__paragraph:nth-child(2)::before,
+    .working__paragraph:last-child::before {
+        font-size: 250px;
+        top: calc(100% - 252px);
+        height: 250px;
+    }
+    .features .container {
+        grid-template-columns: 1fr;
+    }
+    .features__photo:nth-child(2) {
+        grid-row: 4;
+    }
+    .features__photo:nth-child(6) {
+        grid-row: 8;
+    }
+}
+
+@media (max-width: 768px) {
+    .connection__text {
+        padding: 0;
+    }
+}
